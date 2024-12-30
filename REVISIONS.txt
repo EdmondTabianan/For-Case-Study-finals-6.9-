@@ -1,0 +1,41 @@
+-STRIKES
+	LENDING --> BORROW
+	TXTSELECT_CHANGE
+	PRINT --> ENABLE = FALSE IF NO TXTTITLE .TEXT
+	ADD NEW BOOK
+
+Revisions:
+- Pwede dapat maka add ng bagong from frontend to backend
+- Hindi dapat nacliclick ung print button pag cli-nick ang cancel both sa frmborrowingbook and frmreturn
+
+frmreturn
+Pag open:
+- print selected (disabled)
+- print all (always enabled)
+- return book (disabled)
+
+pag may selected record:
+- print selected (enabled)
+- print all (always enabled)
+- return book (enabled)
+
+pag canceled:
+- print selected (disabled)
+- print all (always enabled)
+- return book (disabled)
+
+frmborrowingbook
+Pag open:
+- print selected (disabled)
+- print all (always enabled)
+- borrow book (disabled)
+
+pag may selected record:
+- print selected (enabled)
+- print all (always enabled)
+- borrow book (enabled)
+
+pag canceled:
+- print selected (disabled)
+- print all (always enabled)
+- borrow book (disabled)

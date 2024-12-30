@@ -1,0 +1,13 @@
+Changes 
+
+version 6.9
+
+added datareport 
+added dataenvironment 
+
+adjust picture in log-in 
+
+patch -
+
+fixed add button 
+      cancel button
